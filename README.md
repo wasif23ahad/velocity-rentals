@@ -1,5 +1,7 @@
 # 🚗 Velocity Rentals
 
+[**Live Project Link 🚀**](https://velocity-rentals.vercel.app/)
+
 A full-stack Vehicle Rental Management System built with **React**, **Node.js**, **Express**, and **PostgreSQL**.
 
 The system allows users to browse and book vehicles, while administrators can manage the layout, bookings, and user roles.
@@ -86,27 +88,14 @@ npm run dev
 
 ## 📂 Project Structure
 
-The project has been consolidated into a single root structure:
+The project follows a unified structure:
 
-*   `src/` (Backend Source Check `backend/src` path... wait, the backend source is in `backend/src`? No, I moved everything?
-    No, in the previous step, I kept `backend/src`. Wait.
-    Checking my `package.json` edit: `"server": "ts-node-dev ... backend/src/server.ts"`.
-    So the code IS in `backend/src`.
-    The `node_modules` are in root.
-    `README.md` is in root.
-    `prisma` folder is in root.
-    
-    Correction for Project Structure section:
-    *   `prisma/`: Database Schema and Migrations
-    *   `backend/src/`: Backend Source Code (Controllers, Services, Routes)
-    *   `src/`: Frontend Source Code (React)
-    
-    Wait, `list_dir` showed `App.tsx` in **root**.
-    This means the Frontend is in the root, and the Backend is in `backend/src`.
-    This is a "Root Frontend + Nested Backend" hybrid, but sharing `node_modules`.
-    I will describe it accurately.
+*   **`backend/src/`**: Backend API Source Code (Controllers, Services, Routes)
+*   **`prisma/`**: Database Schema and Migrations
+*   **`src/`**: Frontend React Application Source
+*   **Root**: Configuration files (`package.json`, `.env`, `App.tsx`)
 
-*   `backend/src/`: Backend API Logic
-*   `prisma/`: Database Schema
-*   `src/`: Frontend React Application
+## Author
+
+**Mohammad Wasif Ahad**
 
